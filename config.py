@@ -32,7 +32,7 @@ class Config(object):
 
     CLIENT_ID = "66537db5-6727-4b40-a9a0-5c678380f781"
 
-    REDIRECT_PATH = "udacitycms-fvdvhne3bua2dbes.canadacentral-01.azurewebsites.net/getAToken"  # Used to form an absolute URL; must match to app's redirect_uri set in AAD
+    REDIRECT_PATH = "https://udacitycms-fvdvhne3bua2dbes.canadacentral-01.azurewebsites.net/getAToken"  # Used to form an absolute URL; must match to app's redirect_uri set in AAD
 
     # You can find the proper permission names from this document
     # https://docs.microsoft.com/en-us/graph/permissions-reference
